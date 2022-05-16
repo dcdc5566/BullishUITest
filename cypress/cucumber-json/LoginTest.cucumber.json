@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    As a type of user\n    I want Login into shopping website\n    So that user can access product listing page",
+    "keyword": "Feature",
+    "name": "Login Test Feature file with Email and password",
+    "line": 1,
+    "id": "login-test-feature-file-with-email-and-password",
+    "tags": [],
+    "uri": "LoginTest.feature",
+    "elements": [
+      {
+        "id": "login-test-feature-file-with-email-and-password;user-login-into-shopping-website-with-valid-username-and-password",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User login into shopping website with valid username and password",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open given application url",
+            "result": {
+              "status": "passed",
+              "duration": 6528000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "User enter email as \"tomsmith\"",
+            "result": {
+              "status": "passed",
+              "duration": 369000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "User entre password as \"SuperSecretPassword!\"",
+            "result": {
+              "status": "passed",
+              "duration": 422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User click on signIn button",
+            "result": {
+              "status": "passed",
+              "duration": 3777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should be on product listing page",
+            "result": {
+              "status": "passed",
+              "duration": 607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User click on logout link",
+            "result": {
+              "status": "passed",
+              "duration": 930000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

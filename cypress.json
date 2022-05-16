@@ -1,0 +1,10 @@
+{
+    "baseUrl": "http://the-internet.herokuapp.com",
+    "testFiles": "**/*.feature",
+    "ignoreTestFiles": "*.js",
+    "Video": false,
+    "pluginFile": "cypress/plugins/index.js",
+    "cypress-watch-and-reload": {
+        "watch": ["*/**"]
+      }
+}
