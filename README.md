@@ -4,6 +4,10 @@
 ### Installation
 1.Download code and unzip code and naviagte to unzipped folder 
 2.Following command to install all dependecies
+
+npm install --save-dev cypress
+npm install -D cypress-xpath
+
 ```
  npm install 
 ```
