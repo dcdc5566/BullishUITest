@@ -13,12 +13,12 @@ let CONSTANTS = {
         successfulLogoutFlashMessage : 'You logged out of the secure area!',
         successfulLoginHeadingMessage : 'Secure Area',
         loginHeadingMessage : 'Login Page',
-        loginSubHeaderMessage : 'Welcome to the Secure Area. When you are done click logout below.',
-        LoginSubHeaderMessage : 'This is where you can log into the secure area. Enter ',
-         logoutButton : 'Logout',
-                    
+        loginSubHeaderMessageOnSuccessfullogin : 'Welcome to the Secure Area. When you are done click logout below.',
+        loginSubHeaderMessage: 'This is where you can log into the secure area. Enter ',
+        logoutButton : 'Logout',
+           
 
-
+        
     }
 };
 

@@ -1,0 +1,86 @@
+Bullish@1.0.0 test
+> ./node_modules/.bin/cypress run --browser chrome
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        9.6.1                                                                          │
+  │ Browser:        Chrome 101 (headless)                                                          │
+  │ Node Version:   v16.9.1 (/usr/local/Cellar/node/16.9.1/bin/node)                               │
+  │ Specs:          1 found (LoginTest.feature)                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  LoginTest.feature                                                               (1 of 1)
+
+
+  Login Test Feature file with Email and password
+    ✓ User login into website with valid username and password (example #1) (7563ms)
+    ✓ User login into website with invalid username and password (example #1) (3894ms)
+    ✓ User login into website with invalid username and password (example #2) (3003ms)
+
+
+  3 passing (15s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        3                                                                                │
+  │ Passing:      3                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  3                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     14 seconds                                                                       │
+  │ Spec Ran:     LoginTest.feature                                                                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/deepali/BullishUITest/cypress/screenshots/LoginTest.feature/Successful lo     (1000x660)
+     gin.png                                                                                        
+  -  /Users/deepali/BullishUITest/cypress/screenshots/LoginTest.feature/Your username     (1000x660)
+      is invalid!.png                                                                               
+  -  /Users/deepali/BullishUITest/cypress/screenshots/LoginTest.feature/Your password     (1000x660)
+      is invalid!.png                                                                               
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: /Users/deepali/BullishUITest/cypress/videos/LoginTest.featu    (7 seconds)
+                          re.mp4                                                                    
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  LoginTest.feature                        00:14        3        3        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:14        3        3        -        -        -  
+
+
+> Bullish@1.0.0 posttest
+> node cucumber-html-report.js
+
+
+
+=====================================================================================
+    Multiple Cucumber HTML report generated in:
+
+    /Users/deepali/BullishUITest/reports/cucumber-htmlreport.html/index.html
+=====================================================================================
+
+deepali@Deepalis-MacBook-Air BullishUITest % 
